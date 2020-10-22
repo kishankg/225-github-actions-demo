@@ -4,7 +4,7 @@ const dayOfTheWeek = (date = new Date()) => {
     return days[date.getDay()];
 }
 
-
+// This function will pull current day
 try {
     document.getElementById('day').innerText = dayOfTheWeek();
 } catch(err) {}
