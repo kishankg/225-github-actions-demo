@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "fireship-lessons"
+    "default": "fireship-lessons",
+    "staging": "todoapp-b0127"
   }
 }
