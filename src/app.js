@@ -5,6 +5,7 @@ const dayOfTheWeek = (date = new Date()) => {
 }
 
 // This function will pull current day
+// Adding to test deployment
 try {
     document.getElementById('day').innerText = dayOfTheWeek();
 } catch(err) {}
